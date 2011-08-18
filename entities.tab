@@ -1,0 +1,268 @@
+# $Id: entities.tab 287 2009-11-16 14:18:51Z dig $
+
+# Sources:
+# * [http://www.w3.org/TR/html4/cover.html HTML 4.01 specification], section 24
+# '[http://www.w3.org/TR/html4/sgml/entities.html Character entity references
+# in HTML 4]
+# * [http://www.w3.org/TR/REC-xml/ Extensible Markup Language (XML) 1.0 (Fifth
+# Edition)], section 4.6 [http://www.w3.org/TR/REC-xml/#sec-predefined-ent
+# Predefined Entities].
+
+# Latin-1 entities
+[html4 latin1] nbsp    160
+[html4 latin1] iexcl   161
+[html4 latin1] cent    162
+[html4 latin1] pound   163
+[html4 latin1] curren  164
+[html4 latin1] yen     165
+[html4 latin1] brvbar  166
+[html4 latin1] sect    167
+[html4 latin1] uml     168
+[html4 latin1] copy    169
+[html4 latin1] ordf    170
+[html4 latin1] laquo   171
+[html4 latin1] not     172
+[html4 latin1] shy     173
+[html4 latin1] reg     174
+[html4 latin1] macr    175
+[html4 latin1] deg     176
+[html4 latin1] plusmn  177
+[html4 latin1] sup2    178
+[html4 latin1] sup3    179
+[html4 latin1] acute   180
+[html4 latin1] micro   181
+[html4 latin1] para    182
+[html4 latin1] middot  183
+[html4 latin1] cedil   184
+[html4 latin1] sup1    185
+[html4 latin1] ordm    186
+[html4 latin1] raquo   187
+[html4 latin1] frac14  188
+[html4 latin1] frac12  189
+[html4 latin1] frac34  190
+[html4 latin1] iquest  191
+[html4 latin1] Agrave  192
+[html4 latin1] Aacute  193
+[html4 latin1] Acirc   194
+[html4 latin1] Atilde  195
+[html4 latin1] Auml    196
+[html4 latin1] Aring   197
+[html4 latin1] AElig   198
+[html4 latin1] Ccedil  199
+[html4 latin1] Egrave  200
+[html4 latin1] Eacute  201
+[html4 latin1] Ecirc   202
+[html4 latin1] Euml    203
+[html4 latin1] Igrave  204
+[html4 latin1] Iacute  205
+[html4 latin1] Icirc   206
+[html4 latin1] Iuml    207
+[html4 latin1] ETH     208
+[html4 latin1] Ntilde  209
+[html4 latin1] Ograve  210
+[html4 latin1] Oacute  211
+[html4 latin1] Ocirc   212
+[html4 latin1] Otilde  213
+[html4 latin1] Ouml    214
+[html4 latin1] times   215
+[html4 latin1] Oslash  216
+[html4 latin1] Ugrave  217
+[html4 latin1] Uacute  218
+[html4 latin1] Ucirc   219
+[html4 latin1] Uuml    220
+[html4 latin1] Yacute  221
+[html4 latin1] THORN   222
+[html4 latin1] szlig   223
+[html4 latin1] agrave  224
+[html4 latin1] aacute  225
+[html4 latin1] acirc   226
+[html4 latin1] atilde  227
+[html4 latin1] auml    228
+[html4 latin1] aring   229
+[html4 latin1] aelig   230
+[html4 latin1] ccedil  231
+[html4 latin1] egrave  232
+[html4 latin1] eacute  233
+[html4 latin1] ecirc   234
+[html4 latin1] euml    235
+[html4 latin1] igrave  236
+[html4 latin1] iacute  237
+[html4 latin1] icirc   238
+[html4 latin1] iuml    239
+[html4 latin1] eth     240
+[html4 latin1] ntilde  241
+[html4 latin1] ograve  242
+[html4 latin1] oacute  243
+[html4 latin1] ocirc   244
+[html4 latin1] otilde  245
+[html4 latin1] ouml    246
+[html4 latin1] divide  247
+[html4 latin1] oslash  248
+[html4 latin1] ugrave  249
+[html4 latin1] uacute  250
+[html4 latin1] ucirc   251
+[html4 latin1] uuml    252
+[html4 latin1] yacute  253
+[html4 latin1] thorn   254
+[html4 latin1] yuml    255
+
+# Mathematics, Greek and symbol entities
+[html4] fnof      402
+[html4] Alpha     913
+[html4] Beta      914
+[html4] Gamma     915
+[html4] Delta     916
+[html4] Epsilon   917
+[html4] Zeta      918
+[html4] Eta       919
+[html4] Theta     920
+[html4] Iota      921
+[html4] Kappa     922
+[html4] Lambda    923
+[html4] Mu        924
+[html4] Nu        925
+[html4] Xi        926
+[html4] Omicron   927
+[html4] Pi        928
+[html4] Rho       929
+[html4] Sigma     931
+[html4] Tau       932
+[html4] Upsilon   933
+[html4] Phi       934
+[html4] Chi       935
+[html4] Psi       936
+[html4] Omega     937
+[html4] alpha     945
+[html4] beta      946
+[html4] gamma     947
+[html4] delta     948
+[html4] epsilon   949
+[html4] zeta      950
+[html4] eta       951
+[html4] theta     952
+[html4] iota      953
+[html4] kappa     954
+[html4] lambda    955
+[html4] mu        956
+[html4] nu        957
+[html4] xi        958
+[html4] omicron   959
+[html4] pi        960
+[html4] rho       961
+[html4] sigmaf    962
+[html4] sigma     963
+[html4] tau       964
+[html4] upsilon   965
+[html4] phi       966
+[html4] chi       967
+[html4] psi       968
+[html4] omega     969
+[html4] thetasym  977
+[html4] upsih     978
+[html4] piv       982
+[html4] bull      8226
+[html4] hellip    8230
+[html4] prime     8242
+[html4] Prime     8243
+[html4] oline     8254
+[html4] frasl     8260
+[html4] weierp    8472
+[html4] image     8465
+[html4] real      8476
+[html4] trade     8482
+[html4] alefsym   8501
+[html4] larr      8592
+[html4] uarr      8593
+[html4] rarr      8594
+[html4] darr      8595
+[html4] harr      8596
+[html4] crarr     8629
+[html4] lArr      8656
+[html4] uArr      8657
+[html4] rArr      8658
+[html4] dArr      8659
+[html4] hArr      8660
+[html4] forall    8704
+[html4] part      8706
+[html4] exist     8707
+[html4] empty     8709
+[html4] nabla     8711
+[html4] isin      8712
+[html4] notin     8713
+[html4] ni        8715
+[html4] prod      8719
+[html4] sum       8721
+[html4] minus     8722
+[html4] lowast    8727
+[html4] radic     8730
+[html4] prop      8733
+[html4] infin     8734
+[html4] ang       8736
+[html4] and       8743
+[html4] or        8744
+[html4] cap       8745
+[html4] cup       8746
+[html4] int       8747
+[html4] there4    8756
+[html4] sim       8764
+[html4] cong      8773
+[html4] asymp     8776
+[html4] ne        8800
+[html4] equiv     8801
+[html4] le        8804
+[html4] ge        8805
+[html4] sub       8834
+[html4] sup       8835
+[html4] nsub      8836
+[html4] sube      8838
+[html4] supe      8839
+[html4] oplus     8853
+[html4] otimes    8855
+[html4] perp      8869
+[html4] sdot      8901
+[html4] lceil     8968
+[html4] rceil     8969
+[html4] lfloor    8970
+[html4] rfloor    8971
+[html4] lang      9001
+[html4] rang      9002
+[html4] loz       9674
+[html4] spades    9824
+[html4] clubs     9827
+[html4] hearts    9829
+[html4] diams     9830
+
+# "Special" enities
+[html4 xml]  quot    34
+[html4 xml]  amp     38
+[xml]        apos    39
+[html4 xml]  lt      60
+[html4 xml]  gt      62
+[html4]      OElig   338
+[html4]      oelig   339
+[html4]      Scaron  352
+[html4]      scaron  353
+[html4]      Yuml    376
+[html4]      circ    710
+[html4]      tilde   732
+[html4]      ensp    8194
+[html4]      emsp    8195
+[html4]      thinsp  8201
+[html4]      zwnj    8204
+[html4]      zwj     8205
+[html4]      lrm     8206
+[html4]      rlm     8207
+[html4]      ndash   8211
+[html4]      mdash   8212
+[html4]      lsquo   8216
+[html4]      rsquo   8217
+[html4]      sbquo   8218
+[html4]      ldquo   8220
+[html4]      rdquo   8221
+[html4]      bdquo   8222
+[html4]      dagger  8224
+[html4]      Dagger  8225
+[html4]      permil  8240
+[html4]      lsaquo  8249
+[html4]      rsaquo  8250
+[html4]      euro    8364
