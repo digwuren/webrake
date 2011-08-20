@@ -12,6 +12,7 @@ my $ua = new LWP::UserAgent;
 our $datadir = 'lhv-data';
 our $posts_per_page = 50;
 our $threadid = 121915; # The Canonical Jaikthread
+our $lastpageno = 163; # zero-based
 
 sub fetch_page ($$) {
     my ($threadid, $pageno) = @_;
@@ -47,7 +48,7 @@ sub fetch_page ($$) {
     return $post_count;
 }
 
-for my $pageno (0 .. 162) {
+for my $pageno (0 .. $lastpageno) {
     my $page_present = 1;
     for my $i (0 .. $posts_per_page - 1) {
         my $postno = 1 + $pageno * $posts_per_page + $i;
