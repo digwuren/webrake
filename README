@@ -1,6 +1,19 @@
 This project holds a few special-purpose scripts for scraping some parts of the
 Web.  If you find them useful, good for you.
 
+
+fetch-lhv-thread.pl
+===================
+
+Pulls a thread down from the LHV forum and stores each post as an HTML fragment
+and its author as a textfile.  Does no thread length discovery but attempts to
+avoid re-fetching pages whose posts have already all been fetched.  There is no
+user interface to speak of.
+
+Note that "US persons" may be legally prohibited from reading the LHV forums.
+<http://www.lhv.ee/images/docs/LHV_Website_Terms_of_Use-EN.pdf>
+
+
 LICENSE
 =======
 
